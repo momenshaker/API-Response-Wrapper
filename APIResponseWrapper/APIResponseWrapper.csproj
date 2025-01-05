@@ -1,13 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<PackageId>APIResponseWrapper</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Momen Shaker</Authors>
+		<Description>A library for standardized API responses with pagination, sorting, and filtering for .NET</Description>
+		<PackageTags>API Response, Pagination, Sorting, Filtering</PackageTags>
+		<RepositoryUrl>https://github.com/momenshaker/API-Response-Wrapper</RepositoryUrl>
+		<Copyright>Copyright (c) Momen Shaker</Copyright>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.11" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.11" />
+	</ItemGroup>
 
 </Project>
