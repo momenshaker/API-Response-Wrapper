@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<TargetFramework>net8.0</TargetFramework>
-		<PackageId>APIResponseWrapper</PackageId>
+		<PackageId>API-Response-Wrapper</PackageId>
 		<Version>1.0.0</Version>
 		<Authors>Momen Shaker</Authors>
 		<Description>A library for standardized API responses with pagination, sorting, and filtering for .NET</Description>
