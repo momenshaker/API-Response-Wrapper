@@ -1,4 +1,4 @@
-`# APIResponseWrapper
+# APIResponseWrapper
 
 `APIResponseWrapper` is a utility library designed to standardize and simplify API responses in .NET applications. It provides a common response format for API calls, ensuring that all responses---whether successful or not---follow a consistent structure. The library also includes extensions for handling common operations like pagination, filtering, and sorting in a way that makes API responses more uniform.
 
@@ -18,7 +18,7 @@ To install this library, you can add the project to your solution, or install vi
 
 If this project is hosted as a NuGet package, you can install it using the following command:
 
-```bash
+`
 dotnet add package APIResponseWrapper `
 
 Or via NuGet Package Manager in Visual Studio.
@@ -26,11 +26,11 @@ Or via NuGet Package Manager in Visual Studio.
 Usage
 -----
 
-### `ApiResponse<T>`
+### ApiResponse<T>
 
 `ApiResponse<T>` is a generic class that represents the standard format for all API responses.
-
-`public class ApiResponse<T>
+`
+public class ApiResponse<T>
 {
     public bool Success { get; set; }
     public string Message { get; set; }
